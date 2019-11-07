@@ -1,0 +1,30 @@
+* {
+	-fx-branco				: 	#FFFFFF;
+	-fx-preto				: 	#000000;
+	
+	-fx-primaria-clara		: 	#89C8CB;
+	-fx-primaria-escura		: 	#89c8cb;
+	-fx-antagonica			: 	#4A4A4A; /* para mudar a letra de fundo do botão, por ex: */
+	
+	-fx-fundo				: 	rgba(223,226,227, 1); /* cor de fundo sem transparencia */
+	
+	-fx-fundo-trans			: 	rgb(247,249,252,0.9); /* cor de fundo com transparencia */
+	
+	-fx-pane-superior 		:	rgba(137,200,203,0.85);
+	-fx-panes-laterais 		: 	rgba(137,200,203,0.75);
+	
+}
+
+/* tamanho da fonte */
+.root { 
+    -fx-font		: 12px "Arial";
+	-fx-font-family	: "Arial", sans-serif;
+}
+
+.button {
+	-fx-background-color: green;
+}
+
+.pane-class{
+	-fx-background-color: #000000;
+}
